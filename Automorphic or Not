@@ -1,0 +1,9 @@
+n=int(input("Enter Your number : "))
+op=n**2;
+l=op%10;
+if(l==n) :
+     print("Given number is Automorphic");
+else :
+     print("Given number is not Automorphic");
+
+
