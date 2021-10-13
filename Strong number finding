@@ -1,0 +1,17 @@
+n=int(input("Enter a number:"))
+temp=n;
+s=0;
+while(n):
+    a=1;
+    f=1;
+    r=n%10;
+    while(a<=r):
+        f=f*a;
+        a=a+1;
+    s=s+f;
+    n=n//10;
+if(s==temp):
+    print("The Given number is a strong number");
+else:
+    print("The Given number is not a strong number");
+
